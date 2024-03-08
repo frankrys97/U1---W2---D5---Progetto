@@ -1,0 +1,161 @@
+/* HTML */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Body */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #e9edee;
+}
+
+/* Header */
+
+#topbar {
+  background-color: #222f3f;
+  img {
+    width: 8%;
+    margin: 7px 22px;
+  }
+}
+
+nav {
+  background-color: #364757;
+  height: 5vh;
+  a {
+    text-decoration: none;
+  }
+  h5 {
+    display: inline;
+    line-height: 2em;
+    color: white;
+    margin: 0 3.5px;
+    font-size: small;
+  }
+  div {
+    padding-left: 20px;
+  }
+}
+
+/* Main */
+
+main {
+  margin: 20px;
+}
+
+.orangebox {
+  text-align: center;
+  font-size: small;
+  background-color: #f56601;
+  line-height: 2.2em;
+  color: white;
+  margin-bottom: 20px;
+}
+
+.greenBanner {
+  height: 20vh;
+  background-image: url(/assets/images/bg-image.png);
+  background-repeat: repeat;
+  background-size: 190vh 65%;
+  text-align: center;
+  font-weight: bold;
+  color: white;
+  margin-bottom: 15px;
+  padding-top: 5vh;
+  div {
+    margin-top: 25px;
+  }
+  h3 {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+  }
+  h6 {
+    font-size: small;
+  }
+}
+
+.cards {
+  height: 60vh;
+  background-color: white;
+  margin-bottom: 20px;
+  .cardsTitle {
+    margin-left: 20px;
+    padding-top: 10px;
+    h5 {
+      display: inline;
+      margin-right: 5px;
+      font-size: 1.2em;
+    }
+    p {
+      display: inline;
+      font-size: 1em;
+      color: #417689;
+      font-weight: bold;
+    }
+    a {
+      text-decoration: none;
+    }
+  }
+  #gallery {
+    margin-left: 10px;
+    padding-bottom: 5px;
+
+    img {
+      border-radius: 20px;
+      margin: 1.5vh;
+      width: 23%;
+      height: 50vh;
+      object-fit: cover;
+      box-shadow: 0.5vw 0.5vw 0.5vw rgba(0, 0, 0, 0.2);
+    }
+  }
+}
+
+.bottomBanner {
+  img {
+    width: 100%;
+    height: 60vh;
+  }
+}
+
+.bottomTitle {
+  text-align: center;
+  margin-bottom: 30px;
+  margin-top: 5px; /* NON ERA RICHIESTO MA PER UNA QUESTIONE VISIVA HO INSERITO ANCHE UN LEGGERO MARGINE SUPERIORE*/
+  h5 {
+    display: inline;
+    margin-right: 5px;
+    font-size: 1.2em;
+  }
+  p {
+    display: inline;
+    font-size: 1em;
+    color: #417689;
+    font-weight: bold;
+  }
+  a {
+    text-decoration: none;
+  }
+}
+
+/* Footer */
+
+footer {
+  .back {
+    background-color: #364757;
+    line-height: 2.5em;
+    text-align: center;
+    a {
+      color: white;
+      font-size: small;
+    }
+  }
+  .bottomLogo {
+    text-align: center;
+    background-color: #222f3f;
+    padding: 40px;
+    img {
+      height: 6vh;
+    }
+  }
+}
